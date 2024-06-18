@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url('../images/pic.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #f1e8dd;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    display: flex;
+    flex: 0 0 31%;
+    flex-direction: column;
+    width: 30%;
+    padding: 2%;
+    background-color: #e8ebef;
+    margin: 0.5%;
+    border-radius: 5%;
+    border: dimgrey solid 0.5px;
+}
+
+h2 {
+    margin-top: 2%;
+    text-align: center;
+    font-style: italic;
+    font-family: "Apple Braille";
+}
+
+h4 {
+    text-align: initial;
+    font-family: "Apple Braille";
+    font-style: italic;
+    font-weight: bold;
+}
+
+a {
+    color: #453e86;
+    font-weight: bold;
+}
+
+.title {
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Apple Braille";
+    color: #453e86;
+    padding-top: 3%;
+    padding-right: 1%;
+    text-align: right;
+}
+
+.body {
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 1.2rem;
+}
+
+.a_title {
+  text-align: center;
+}
+
+.title_author,
+.title_published {
+    text-align: center;
+}
